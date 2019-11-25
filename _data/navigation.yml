@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: About
-  link: jekyll1/about.html
+  link: /about.html
 - name: Documents
-  link: jekyll1/documents.html
+  link: /documents.html
 - name: Blog
-  link: jekyll1/blog.html
+  link: /blog.html
 - name: My portfolio
-  link: jekyll1/staff.html
+  link: /staff.html

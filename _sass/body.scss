@@ -1,10 +1,31 @@
 body{
         width: 100%;
-        background-color: gold;
+        background-color:#111;
         position: sticky;
         margin-left:0;
   }
   .text{
       color: white;
       font-size: 50px;
+      text-align: center;
+      font-family: 'Helvetica Neue','Arial','sans-serif';
+
   }
+  .text2{
+      border: 1px solid white;
+      border-radius: 8px;
+      color:gold;
+      font-size: 20px;
+      word-spacing: 20px;
+      margin-top: 50px;
+      background-color: gray;
+      padding: 10px;
+  }
+  .body-2{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-content: center;
+  }
+  

@@ -3,16 +3,16 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
+		"_sass/body.scss",
 		"_sass/main.scss",
-		"_sass/menu.scss",
-		"_sass/body.scss"
+		"_sass/menu.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n@import \"menu\";\n@import \"body\";",
-		".current{\r\n    color: green;\r\n  }\r\nbody{\r\n  width: 100%;\r\n    background-color: yellow;\r\n}",
-		"#navbar{\r\n    background-color: dimgray;\r\n}\r\n.nav-link{\r\n    text-decoration: none;\r\n    color: white;\r\n   \r\n  \r\n\r\n}\r\n#navbar-menu{\r\n    list-style: none;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    align-content: center;\r\n    margin-top: -8px;\r\n    margin-bottom: 20px;\r\n    padding: 15px;\r\n    \r\n}\r\n\r\n",
-		"body{\r\n        width: 100%;\r\n        background-color: gold;\r\n        position: sticky;\r\n        margin-left:0;\r\n  }\r\n  .text{\r\n      color: white;\r\n      font-size: 50px;\r\n  }"
+		"@import \"body\";\n@import \"main\";\n@import \"menu\";\n",
+		"body{\r\n        width: 100%;\r\n        background-color:#111;\r\n        position: sticky;\r\n        margin-left:0;\r\n  }\r\n  .text{\r\n      color: white;\r\n      font-size: 50px;\r\n      text-align: center;\r\n      font-family: 'Helvetica Neue','Arial','sans-serif';\r\n\r\n  }\r\n  .text2{\r\n      border: 1px solid white;\r\n      border-radius: 8px;\r\n      color:gold;\r\n      font-size: 20px;\r\n      word-spacing: 20px;\r\n      margin-top: 50px;\r\n      background-color: gray;\r\n      padding: 10px;\r\n  }\r\n  .body-2{\r\n      display: flex;\r\n      flex-direction: row;\r\n      flex-wrap: nowrap;\r\n      justify-content: flex-start;\r\n      align-content: center;\r\n  }\r\n  \r\n",
+		".current{\r\n    color: green;\r\n  }",
+		"#navbar{\r\n    position: relative;\r\n    background-color: rgb(228, 193, 39);\r\n    top:-2px;\r\n}\r\n.nav-link{\r\n    text-decoration: none;\r\n    color: black;\r\n     padding: 15px;\r\n}\r\n.nav-link:hover{\r\n    color:white;\r\n}\r\n#navbar-menu {\r\n    list-style: none;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: flex-start;\r\n    align-content: center;\r\n    \r\n    margin-top: -6px;\r\n    margin-bottom: 20px;\r\n    padding: 15px;\r\n   \r\n    \r\n}\r\n#icon1{\r\n    list-style: none;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: flex-end;\r\n    align-content: center;\r\n    margin-top: -55px;\r\n    \r\n}\r\n#icon{\r\n    letter-spacing: 10px;\r\n    margin-right: 20px;\r\n    text-decoration: none;\r\n}\r\n.icons{\r\n    text-decoration: none;\r\n}\r\n\r\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAA,EACJ,KAAK,EAAE,KAAK,GACb;;AACH,AAAA,IAAI,CAAA,EACF,KAAK,EAAE,IAAI,EACT,gBAAgB,EAAE,MAAM,GAC3B;;ACND,AAAA,OAAO,CAAA,EACH,gBAAgB,EAAE,OAAO,GAC5B;;AACD,AAAA,SAAS,CAAA,EACL,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,KAAK,GAIf;;AACD,AAAA,YAAY,CAAA,EACR,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,GAAG,EACnB,SAAS,EAAE,IAAI,EACf,eAAe,EAAE,YAAY,EAC7B,aAAa,EAAE,MAAM,EACrB,UAAU,EAAE,IAAI,EAChB,aAAa,EAAE,IAAI,EACnB,OAAO,EAAE,IAAI,GAEhB;;ACrBD,AAAA,IAAI,CAAA,EACI,KAAK,EAAE,IAAI,EACX,gBAAgB,EAAE,IAAI,EACtB,QAAQ,EAAE,MAAM,EAChB,WAAW,EAAC,CAAC,GAClB;;AACD,AAAA,KAAK,CAAA,EACD,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,IAAI,GAClB"
+	"mappings": "ACAA,AAAA,IAAI,CAAA,EACI,KAAK,EAAE,IAAI,EACX,gBAAgB,EAAC,IAAI,EACrB,QAAQ,EAAE,MAAM,EAChB,WAAW,EAAC,CAAC,GAClB;;AACD,AAAA,KAAK,CAAA,EACD,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,IAAI,EACf,UAAU,EAAE,MAAM,EAClB,WAAW,EAAE,qCAAqC,GAErD;;AACD,AAAA,MAAM,CAAA,EACF,MAAM,EAAE,eAAe,EACvB,aAAa,EAAE,GAAG,EAClB,KAAK,EAAC,IAAI,EACV,SAAS,EAAE,IAAI,EACf,YAAY,EAAE,IAAI,EAClB,UAAU,EAAE,IAAI,EAChB,gBAAgB,EAAE,IAAI,EACtB,OAAO,EAAE,IAAI,GAChB;;AACD,AAAA,OAAO,CAAA,EACH,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,GAAG,EACnB,SAAS,EAAE,MAAM,EACjB,eAAe,EAAE,UAAU,EAC3B,aAAa,EAAE,MAAM,GACxB;;AC7BH,AAAA,QAAQ,CAAA,EACJ,KAAK,EAAE,KAAK,GACb;;ACFH,AAAA,OAAO,CAAA,EACH,QAAQ,EAAE,QAAQ,EAClB,gBAAgB,EAAE,OAAiB,EACnC,GAAG,EAAC,IAAI,GACX;;AACD,AAAA,SAAS,CAAA,EACL,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,KAAK,EACX,OAAO,EAAE,IAAI,GACjB;;AACD,AAAA,SAAS,AAAA,MAAM,CAAA,EACX,KAAK,EAAC,KAAK,GACd;;AACD,AAAA,YAAY,CAAC,EACT,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,GAAG,EACnB,SAAS,EAAE,IAAI,EACf,eAAe,EAAE,UAAU,EAC3B,aAAa,EAAE,MAAM,EAErB,UAAU,EAAE,IAAI,EAChB,aAAa,EAAE,IAAI,EACnB,OAAO,EAAE,IAAI,GAGhB;;AACD,AAAA,MAAM,CAAA,EACF,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,GAAG,EACnB,SAAS,EAAE,IAAI,EACf,eAAe,EAAE,QAAQ,EACzB,aAAa,EAAE,MAAM,EACrB,UAAU,EAAE,KAAK,GAEpB;;AACD,AAAA,KAAK,CAAA,EACD,cAAc,EAAE,IAAI,EACpB,YAAY,EAAE,IAAI,EAClB,eAAe,EAAE,IAAI,GACxB;;AACD,AAAA,MAAM,CAAA,EACF,eAAe,EAAE,IAAI,GACxB"
 }

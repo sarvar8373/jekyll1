@@ -1,23 +1,46 @@
 #navbar{
-    background-color: dimgray;
+    position: relative;
+    background-color: rgb(228, 193, 39);
+    top:-2px;
 }
 .nav-link{
     text-decoration: none;
-    color: white;
-   
-  
-
+    color: black;
+     padding: 15px;
 }
-#navbar-menu{
+.nav-link:hover{
+    color:white;
+}
+#navbar-menu {
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: center;
-    margin-top: -8px;
+    
+    margin-top: -6px;
     margin-bottom: 20px;
     padding: 15px;
+   
     
+}
+#icon1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: -55px;
+    
+}
+#icon{
+    letter-spacing: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.icons{
+    text-decoration: none;
 }
 

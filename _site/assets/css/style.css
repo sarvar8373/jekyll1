@@ -1,15 +1,25 @@
+body { width: 100%; background-color: #111; position: sticky; margin-left: 0; }
+
+.text { color: white; font-size: 50px; text-align: center; font-family: 'Helvetica Neue','Arial','sans-serif'; }
+
+.text2 { border: 1px solid white; border-radius: 8px; color: gold; font-size: 20px; word-spacing: 20px; margin-top: 50px; background-color: gray; padding: 10px; }
+
+.body-2 { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: center; }
+
 .current { color: green; }
 
-body { width: 100%; background-color: yellow; }
+#navbar { position: relative; background-color: #e4c127; top: -2px; }
 
-#navbar { background-color: dimgray; }
+.nav-link { text-decoration: none; color: black; padding: 15px; }
 
-.nav-link { text-decoration: none; color: white; }
+.nav-link:hover { color: white; }
 
-#navbar-menu { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-content: center; margin-top: -8px; margin-bottom: 20px; padding: 15px; }
+#navbar-menu { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-content: center; margin-top: -6px; margin-bottom: 20px; padding: 15px; }
 
-body { width: 100%; background-color: gold; position: sticky; margin-left: 0; }
+#icon1 { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-end; align-content: center; margin-top: -55px; }
 
-.text { color: white; font-size: 50px; }
+#icon { letter-spacing: 10px; margin-right: 20px; text-decoration: none; }
+
+.icons { text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

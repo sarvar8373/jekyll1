@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: myportfolio
 title: My portfolio
 ---
 # My portfolio page

@@ -1,6 +1,6 @@
 body{
         width: 100%;
-        background-color:#111;
+        background-color:#272626d7;
         position: sticky;
         margin-left:0;
   }
@@ -12,20 +12,37 @@ body{
 
   }
   .text2{
-      border: 1px solid white;
+      border: 1px solid gold;
       border-radius: 8px;
-      color:gold;
+      color:white;
       font-size: 20px;
-      word-spacing: 20px;
+      word-spacing: 0px;
       margin-top: 50px;
-      background-color: gray;
+      background-color: black;
       padding: 10px;
+      margin-left: 10px;
+  }
+  .body-1{
+      display: block;
   }
   .body-2{
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: flex-start;
-      align-content: center;
+      margin-left: 30px;
   }
-  
+  .body-3{
+    position: relative;
+   
+    margin-top: 60px;
+    
+  }
+.buttons{
+    position: relative;
+    border:1px solid gold;
+    background-color: gold;
+    color: black;
+    padding: 50px;
+    margin:2px;
+}  

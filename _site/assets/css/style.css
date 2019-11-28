@@ -29,6 +29,7 @@ body { width: 100%; background-color: #1a1b1a; position: sticky; margin-left: 0;
 .nav-link { text-decoration: none; color: black; padding: 15px; }
 
 .nav-link:hover { color: white; }
+.nav-link:active { color:white; }
 
 #navbar-menu { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-content: center; margin-top: -6px; margin-bottom: 20px; padding: 15px; }
 

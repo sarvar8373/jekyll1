@@ -1,6 +1,6 @@
 body{
         width: 100%;
-        background-color:#272626d7;
+        background-color : rgb(26, 27, 26);
         position: sticky;
         margin-left:0;
   }
@@ -46,3 +46,34 @@ body{
     padding: 50px;
     margin:2px;
 }  
+.contiener{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid rgb(26, 27, 26);
+    border-radius: 50px;
+    
+}
+.text3{
+    color:white;
+    margin: 40px;
+    border: 0px solid gold;
+    width: 70%;
+    padding: 10px;
+    font-size:25px;
+}
+.footer1{
+    text-align: center;
+    padding: 10px;
+    
+}
+.footer2{
+    text-decoration:none;
+    color:white;
+}
+.footer2:hover{
+    color: goldenrod;
+}

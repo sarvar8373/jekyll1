@@ -8,7 +8,7 @@
   <body>
     {% include menu.html %}
     <div class="body-1">
-      <p class="text">My new site Jekyll</p>
+      <p class="text">My <span style="color: gold;">New</span> Site <span style="color: gold;">Jekyll</span></p>
         <div class="body-2">
           <img src="assets/images/octojekyll.png" width="280" height="250"></img>
              <p class="text2" style="background-color: #272626d7; color: white; border: 2px solid gold;">  
@@ -38,9 +38,19 @@
               ~ $ bundle exec jekyll serve<br>        
                <span style="color:  red"># => Now browse to http://localhost:4000</span>
                    </p>
-      
-        </div>
+            </div>
+            <p style="font-size:50px; color: gold; text-align: center;">Transform your plain text into static websites and blogs.</p>
+            <div class="contiener">
+                <img src="assets\images\jekyll.png" width="400px" height="200px"></img>
+               <p class="text3">
+                  Free hosting with GitHub Pages<br>
+                  Sick of dealing with hosting companies? <br>
+                  GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free—custom domain name and all.
+                  <br>
+                  Learn more about GitHub Pages →
+               </p>
+            </div>
       </div>
-
+      {% include footer.html %}
   </body>
 </html>

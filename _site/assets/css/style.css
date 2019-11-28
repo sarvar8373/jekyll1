@@ -1,4 +1,4 @@
-body { width: 100%; background-color: #272626d7; position: sticky; margin-left: 0; }
+body { width: 100%; background-color: #1a1b1a; position: sticky; margin-left: 0; }
 
 .text { color: white; font-size: 50px; text-align: center; font-family: 'Helvetica Neue','Arial','sans-serif'; }
 
@@ -11,6 +11,16 @@ body { width: 100%; background-color: #272626d7; position: sticky; margin-left: 
 .body-3 { position: relative; margin-top: 60px; }
 
 .buttons { position: relative; border: 1px solid gold; background-color: gold; color: black; padding: 50px; margin: 2px; }
+
+.contiener { display: flex; flex-direction: row-reverse; justify-content: flex-start; position: relative; background-color: black; padding: 20px; border: 2px solid #1a1b1a; border-radius: 50px; }
+
+.text3 { color: white; margin: 40px; border: 0px solid gold; width: 70%; padding: 10px; font-size: 25px; }
+
+.footer1 { text-align: center; padding: 10px; }
+
+.footer2 { text-decoration: none; color: white; }
+
+.footer2:hover { color: goldenrod; }
 
 .current { color: green; }
 

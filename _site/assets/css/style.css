@@ -6,7 +6,7 @@ body { width: 100%; background-color: #1a1b1a; position: sticky; margin-left: 0;
 
 .body-1 { display: block; }
 
-.body-2 { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; margin-left: 30px; }
+.body-2 { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly; margin-left: 30px; }
 
 .body-3 { position: relative; margin-top: 60px; }
 
@@ -26,10 +26,12 @@ body { width: 100%; background-color: #1a1b1a; position: sticky; margin-left: 0;
 
 #navbar { position: relative; background-color: #e4c127; top: -2px; }
 
-.nav-link { text-decoration: none; color: black; padding: 15px; }
+.nav-link { text-decoration: none; color: black; padding: 12px; }
 
 .nav-link:hover { color: white; }
 .nav-link:active { color:white; }
+
+.nav-link:active { color: white; }
 
 #navbar-menu { list-style: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-content: center; margin-top: -6px; margin-bottom: 20px; padding: 15px; }
 
